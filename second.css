@@ -1,0 +1,50 @@
+*{
+    font-family: monospace;
+}
+
+div{
+    padding: 5px;
+}
+
+.container{
+    background-color: darkkhaki;
+    height: 80px;
+    display: flex;
+}
+
+.one{
+    flex-grow: 0;
+    width:300px;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+.two{
+    flex-grow: 1;
+    justify-content: center;
+    align-content: center;
+    padding: 4px;
+    font-size: 50px;
+}
+
+.one,
+.two{
+    display: flex;    
+}
+
+.one div{
+    margin: auto;
+    background-color: aliceblue;
+    height: 22px;
+    width: 70px;
+    text-align: center;
+    padding: 10px;
+    color: blue;
+}
+
+div span{
+    background-color: aliceblue;
+    padding: 10px;
+    color: crimson;
+}
+
