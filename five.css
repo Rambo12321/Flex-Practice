@@ -1,0 +1,105 @@
+html,
+body{
+    height: 100%;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    height: 100%;
+}
+
+.container{
+background-color: aliceblue;
+width: 480px;
+display: flex;
+border-radius: 10px;
+box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+padding: 15px;
+}
+
+.icon{
+    background-color: turquoise;
+    color: crimson;
+    height: 45px;
+    width: 45px;
+    font-weight: 900;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 50%;
+    margin-right: 7px;
+    flex: none;
+}
+
+.vertical{
+    flex-direction: column;
+    padding: 0 8px;
+    display: flex;
+    flex: auto;
+    gap: 8px;
+}
+
+#top{
+    display: flex;
+    flex: none;
+}
+
+.close{
+    margin-left: auto;
+    background-color: turquoise;
+    color: crimson;
+    height: 25px;
+    width: 25px;
+    font-weight: 900;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    border-radius: 50%;
+    flex: none;
+}
+
+.title{
+    font-size: larger;
+    font-weight: 900;
+}
+
+.vertical div{
+    word-wrap: normal;
+    display: flex;
+    gap:5px;
+    flex: none;
+}
+
+button{
+    border-radius: 5px;
+    height: 30px;
+    padding: 5px 15px;
+    font-weight: 600;
+    border: 1px solid #eee;
+}
+
+button:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.cancel{
+    background-color: white;
+    color: blue;
+}
+
+.continue{
+    background-color: blue;
+    color: white;
+}
+
+#top button{
+padding: 5px;
+flex: none;
+}
