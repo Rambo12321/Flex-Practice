@@ -1,0 +1,72 @@
+body{
+    font-family: Besley, serif;
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    height: 80px;
+    background-color: blanchedalmond;
+    border-bottom:2px solid red ;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.one{
+    flex: none;
+    min-width: 500px;
+    display: flex;
+}
+
+.two{
+    margin-left: auto;
+    display: flex;
+    flex: none;
+    min-width: 270px;
+    gap: 5px;
+}
+
+
+.one div,
+.two div{
+    display: flex;
+    flex:1 0 auto;
+    justify-content: center;
+    align-items: center;   
+    font-size: x-large;
+}
+
+
+#logo{
+    color: rebeccapurple;
+    font-size: 38px;
+    font-weight: 1000;
+    font-style: italic;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    flex-basis: 65px;
+}
+
+
+.two div{
+background-color: blueviolet;
+display: flex;
+}
+
+.two .noti{
+    border-radius: 8px;
+    height: 35px;
+    padding: 3px 5px;
+    align-self: center;
+    flex: none;
+}
+
+.two .circle{
+    border-radius: 50%; 
+    height: 50px;
+    width: 50px;
+    align-self: center;
+    flex: none;
+    margin: auto;
+}
+
