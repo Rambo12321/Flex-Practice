@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    text-align: center;
+}
+
+.contain{
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.contain img{
+    height: 200px;
+    width: auto;
+}
+
+.contain div{
+    text-align: center;
+    flex: none;
+    max-width: 200px;
+    word-wrap: break-word;
+}
