@@ -1,0 +1,19 @@
+.contain{
+    background-color: blueviolet;
+    border: 5px solid black;
+    border-color:black;
+    display: flex;
+    height: 500px;
+    width: 500px;
+    flex: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain .center{
+    border: 8px solid crimson;
+    height:150px;
+    width:150px;
+    background-color: gray;
+}
