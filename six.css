@@ -76,15 +76,12 @@ li{
 }
 
 .box{
-    width: 600px;
+    width: 795px;
     height: 400px;
     flex: initial;
     display: flex;
     flex-direction: column;
-    background-color: bisque;
 }
-
-
 
 .box .img-area{
     flex: auto;
@@ -92,8 +89,6 @@ li{
 
 .box div{
     height: 50px;
-    background-color: aqua;
-    border-bottom: 1px solid black;
 }
 
 .but-area{
@@ -110,4 +105,28 @@ button{
     height: 30px;
     border-radius: 10px;
     border: 0;
+    font-size: 16px;
+}
+
+button:hover{
+    background-color: cornsilk;
+    color: red;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+.input input{
+    width: 80%;
+    height: 30px;
+    border-radius: 20px;
+    border: 2px solid #eeeeee;
+}
+
+.img-area img{
+    height: 100%;
+    width: auto;
 }
