@@ -1,6 +1,6 @@
 html,
 body{
-    height: 98vh;
+    height: 100vh;
     margin: 0%;
 }
 
@@ -14,10 +14,6 @@ body{
 .footer{
     height: 50px;
     display: flex;
-}
-
-.header{
-    align-items: center;
 }
 
 .footer{
@@ -39,12 +35,31 @@ span{
 .header{
     background-color: teal;
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     box-sizing: border-box;
     padding: 9px;
+    align-items: center;
 }
 
 .footer{
     background-color: antiquewhite;
+}
+
+.left{
+    width: 18%;
+    background-color: blue;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
