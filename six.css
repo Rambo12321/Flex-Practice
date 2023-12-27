@@ -3,18 +3,74 @@ body{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 0;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
 }
 
 .major{
     display: flex;
     flex-direction: column;
     flex: auto;
-    background-color: cadetblue;
 }
 
 .footer{
-    background-color: bisque;
+    background-color: #eeeeee;
     display: flex;
     height: 40px;
+    flex: 0 1 auto;
+    justify-content: space-between;
+}
+
+.header{
+    height: 40px;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-between;
+}
+
+.context{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-one,
+.right-one{
+    display: flex;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-one{
+    width: 150px;
+}
+
+.right-one{
+    width: 170px;
+}
+
+.footer .left-one{
+    width: 210px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0%;
+    flex: auto;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    color: red;    
+}
+
+li{
+    margin: auto;
+    text-align: center;
 }
