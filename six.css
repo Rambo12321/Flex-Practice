@@ -1,0 +1,20 @@
+html,
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.major{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    background-color: cadetblue;
+}
+
+.footer{
+    background-color: bisque;
+    display: flex;
+    height: 40px;
+}
