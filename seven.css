@@ -49,6 +49,8 @@ span{
 .left{
     width: 18%;
     background-color: blue;
+    font-weight: 800;
+    flex: none;
 }
 
 ul{
@@ -63,3 +65,23 @@ a{
     text-decoration: none;
     color: white;
 }
+
+.right{
+    flex: auto;
+    padding: 30px;
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.right div{
+    flex: none;
+    height: 46%;
+    width: 300px;
+    word-wrap: normal;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    border: 2px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
